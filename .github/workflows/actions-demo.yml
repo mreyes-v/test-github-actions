@@ -16,6 +16,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - uses: hashicorp/setup-golang@v1
 
       - name: echo $HOME
         run: echo $HOME
